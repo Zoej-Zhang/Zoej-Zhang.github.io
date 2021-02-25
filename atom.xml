@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Zoej-Zhang.github.io</id>
-    <title>Gridea</title>
-    <updated>2021-02-25T02:59:51.031Z</updated>
+    <title>Zoej 的PM成长录</title>
+    <updated>2021-02-25T15:09:37.850Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Zoej-Zhang.github.io"/>
     <link rel="self" href="https://Zoej-Zhang.github.io/atom.xml"/>
     <subtitle>温故知新，三思后行</subtitle>
     <logo>https://Zoej-Zhang.github.io/images/avatar.png</logo>
     <icon>https://Zoej-Zhang.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2021, Zoej 的PM成长录</rights>
+    <entry>
+        <title type="html"><![CDATA[2021.02 产品体系构建]]></title>
+        <id>https://Zoej-Zhang.github.io/post/202102-chan-pin-ti-xi-gou-jian/</id>
+        <link href="https://Zoej-Zhang.github.io/post/202102-chan-pin-ti-xi-gou-jian/">
+        </link>
+        <updated>2021-02-25T15:08:47.000Z</updated>
+        <content type="html"><![CDATA[<p>私以为产品经理应该有一套自己的产品理解和工作方法体系，在小红书的实习过程中逐渐搭建起了一个框架并逐渐修改、填充了部分，希望能在此基础上不断充实完善。</p>
+<p>此框架主要分为<strong>产品观</strong>和<strong>工作方法论</strong>两部分。产品观指观察、体验、思考一产品时常用的角度，包括产品概况、产品设计、运营推广方式和商业化模式；工作方法论主要是实际工作场景下使用的小技巧。</p>
+<figure data-type="image" tabindex="1"><img src="https://Zoej-Zhang.github.io/post-images/1614265762151.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
 </feed>
