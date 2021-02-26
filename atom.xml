@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Zoej-Zhang.github.io</id>
     <title>Zoej 的PM成长录</title>
-    <updated>2021-02-26T09:39:58.263Z</updated>
+    <updated>2021-02-26T09:42:27.821Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Zoej-Zhang.github.io"/>
     <link rel="self" href="https://Zoej-Zhang.github.io/atom.xml"/>
@@ -10,23 +10,6 @@
     <logo>https://Zoej-Zhang.github.io/images/avatar.png</logo>
     <icon>https://Zoej-Zhang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Zoej 的PM成长录</rights>
-    <entry>
-        <title type="html"><![CDATA[产品思考-为什么知乎会把编辑时间放在内容的末尾？]]></title>
-        <id>https://Zoej-Zhang.github.io/post/chan-pin-si-kao-wei-shi-me-zhi-hu-hui-ba-bian-ji-shi-jian-fang-zai-nei-rong-de-mo-wei/</id>
-        <link href="https://Zoej-Zhang.github.io/post/chan-pin-si-kao-wei-shi-me-zhi-hu-hui-ba-bian-ji-shi-jian-fang-zai-nei-rong-de-mo-wei/">
-        </link>
-        <updated>2021-02-26T09:28:41.000Z</updated>
-        <content type="html"><![CDATA[<p>题目拆解：<strong>知乎</strong>、<strong>编辑时间</strong>、<strong>内容</strong>、<strong>末尾</strong>。</p>
-<p>知乎定位：「有问题就有答案」，知乎是知识问答社区，主打高质量回答，面向的用户主要集中在一二线城市，受教育水平较高，因此对问题答案的要求较高。</p>
-<p>题目中的内容指的就是知乎中问题的答案。知乎将编辑时间放在了回答的末尾。末尾暗指的含义是「不重要」，那么对于知乎的回答而言时间为何不重要？什么更重要？什么样的内容需要把时间置于最前？如果把时间放在前边，对知乎来说会有什么影响？</p>
-<p>将这道题拆解成以上几个小问题后，可以考虑到以下几个方面：</p>
-<ol>
-<li>内容的时间强调其时效性。知乎回答的时效性并不强，时间不是其内容排列的重要指标，答案的发布、编辑时间并不影响用户浏览内容。相比之下，回答的质量、获得的互动数更加重要；</li>
-<li>时效性强的产品主要是新闻资讯类，如今日头条、腾讯新闻、虎嗅。资讯类产品的用户希望看到最新最热的新闻话题，因此这类产品的内容会把时间显示在内容的前部分；</li>
-<li>目前知乎回答放在前边的要素主要是回答人的信息，包括其 ID、简介和头衔。这些要素向用户提供了回答质量高低的部分依据，因此比编辑的时间更重要。但时间仍然是内容的一个不可或缺的部分，不可以完全去掉，因此放在相对次要的位置。</li>
-</ol>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[2021.02 产品体系构建]]></title>
         <id>https://Zoej-Zhang.github.io/post/202102-chan-pin-ti-xi-gou-jian/</id>
