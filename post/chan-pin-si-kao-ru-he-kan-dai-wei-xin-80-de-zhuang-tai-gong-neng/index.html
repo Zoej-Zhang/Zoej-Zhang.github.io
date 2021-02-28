@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://Zoej-Zhang.github.io/favicon.ico?v=1614507414459">
+<link rel="shortcut icon" href="https://Zoej-Zhang.github.io/favicon.ico?v=1614509054217">
 <link rel="stylesheet" href="https://Zoej-Zhang.github.io/styles/main.css">
 
 
@@ -19,8 +19,7 @@
 
 
     <meta name="description" content="题目拆解：微信、状态功能、如何看待
-微信本质是即时通讯工具，主打熟人社交。随着版本优化微信逐渐加入了支付、打车、酒店等生活工具，成为了人们的一种生活方式。最新的 8.0 版本中新增的状态功能广受关注。
-思考如何看待的问题时，可以从 5W2H..." />
+微信本质是即时通讯工具，主打熟人社交，私域流量池。随着版本优化微信逐渐加入了支付、打车、酒店等生活工具，成为了人们的一种生活方式。最新的 8.0 版本中新增的状态功能广受关注。用户可以分享自己的生活状态，..." />
     <meta name="keywords" content="产品思考" />
   </head>
   <body>
@@ -30,7 +29,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://Zoej-Zhang.github.io">
-        <img src="https://Zoej-Zhang.github.io/images/avatar.png?v=1614507414459" class="site-logo">
+        <img src="https://Zoej-Zhang.github.io/images/avatar.png?v=1614509054217" class="site-logo">
         <h1 class="site-title">Zoej 的PM成长录</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -91,8 +90,8 @@
             
             <div class="post-content" v-pre>
               <p>题目拆解：微信、状态功能、如何看待</p>
-<p>微信本质是即时通讯工具，主打熟人社交。随着版本优化微信逐渐加入了支付、打车、酒店等生活工具，成为了人们的一种生活方式。最新的 8.0 版本中新增的状态功能广受关注。<br>
-思考如何看待的问题时，可以从 5W2H 的角度尽量全面地找到角度。</p>
+<p>微信本质是即时通讯工具，主打熟人社交，私域流量池。随着版本优化微信逐渐加入了支付、打车、酒店等生活工具，成为了人们的一种生活方式。最新的 8.0 版本中新增的状态功能广受关注。用户可以分享自己的生活状态，寻找与自己同状态的好友。<br>
+思考如何看待的问题时，可以从 5W1H 的角度尽量全面地找到角度。</p>
 <p><strong>What</strong><br>
 用户可以在「我的」页面中找到状态功能并添加自己当下的状态。目前系统给出的状态类型有心情想法、工作学习、活动、休息，也可自行定义。选择状态后可以发表简短的想法，加入话题、图片、位置等，还可以设置可见范围。发布后可以看到处于同样状态的朋友。<br>
 <strong>When</strong><br>
@@ -100,9 +99,14 @@
 <strong>Where</strong><br>
 状态的入口只在「我的」页面，用户设置后好友会在与其聊天页中看到其 ID 后的状态图标。<br>
 <strong>Why</strong><br>
-状态发布时的设计跟朋友圈的概念很相似。微信朋友圈逐渐式微，越来越多的人选择朋友圈三天可见或不再发布，因为现在的朋友圈承载的不只是生活的分享，还含有炫富、观点表达等更复杂的意味。状态的出现也许是微信对内容分享的一次拯救。与朋友圈相比，状态更加客观，只是当下活动的展现而更少主观展示。</p>
-<p>体验后的感受</p>
-<p>添加状态后虽然好友可以在聊天页看到自己的状态，自己却无法在主页面聊天页看到自己的状态，经常会忘记当前自己还处在一个状态中。如果想修改也只能再次回到「我的」页面，体验不够流畅。</p>
+状态发布时的设计跟朋友圈的概念很相似。微信朋友圈逐渐式微，越来越多的人选择朋友圈三天可见或不再发布，因为现在的朋友圈承载的不只是生活的分享，还含有炫富、观点表达等更复杂的意味。状态的出现也许是微信对内容分享的一次拯救。与朋友圈相比，状态更加客观，只是当下活动的展现而更少主观展示。发现同状态的好友也增强了情感联系。</p>
+<p>体验后的感受：<br>
+首次使用新鲜感十足，看到同状态好友时感觉十分亲近。添加状态后虽然好友可以在聊天页看到自己的状态，自己却无法在主页面聊天页看到自己的状态，经常会忘记当前自己还处在一个状态中。如果想修改也只能再次回到「我的」页面，体验不够流畅。如果想强调这一功能，在主页面有该功能的提示会提高状体态的使用率。</p>
+<p>补充：</p>
+<ol>
+<li>状态可实现社交隔断（如状态为忙碌）。以实现更高效的社交</li>
+<li>与QQ 签名/状态做比较。QQ 签名/状态关注「此刻在想什么」，微信状态则关心「此刻在做什么」，更加直接、简单；QQ 的签名和状态除非主动修改，否则一直出现，而微信状态24小时清除更注重即时性。</li>
+</ol>
 
             </div>
             
