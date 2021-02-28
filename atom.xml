@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Zoej-Zhang.github.io</id>
     <title>Zoej 的PM成长录</title>
-    <updated>2021-02-26T10:12:46.641Z</updated>
+    <updated>2021-02-28T10:12:46.626Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Zoej-Zhang.github.io"/>
     <link rel="self" href="https://Zoej-Zhang.github.io/atom.xml"/>
@@ -10,6 +10,64 @@
     <logo>https://Zoej-Zhang.github.io/images/avatar.png</logo>
     <icon>https://Zoej-Zhang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Zoej 的PM成长录</rights>
+    <entry>
+        <title type="html"><![CDATA[Bilibili-用户需求收集分析说明]]></title>
+        <id>https://Zoej-Zhang.github.io/post/bilibili-yong-hu-xu-qiu-shou-ji-fen-xi-shuo-ming/</id>
+        <link href="https://Zoej-Zhang.github.io/post/bilibili-yong-hu-xu-qiu-shou-ji-fen-xi-shuo-ming/">
+        </link>
+        <updated>2021-02-28T09:53:23.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>Highlight</strong></p>
+<ol>
+<li>2020.8-2020.9 通过应用商店和微博收集用户反馈 121 条。经清洗分类得到 bug 14个，优化需求 64 个，新需求 30 个。</li>
+<li>分析筛选 30 个新需求，最终整理为 17 个产品需求进入需求池。</li>
+<li>经优先级排序，本次优化目标为：长按屏幕倍速播放。</li>
+</ol>
+<p><strong>一、需求收集</strong></p>
+<p>通常需求反馈通道由公司内部和外部组成，由于非 B 站内部人员，本次需求收集仅面对公司外部 B 站用户在各渠道的反馈，主要关注以下渠道：<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614506912246.png" alt="" loading="lazy"><br>
+七麦网 Apple App Store 和安卓各应用商店（华为、VIVO、OPPO、魅族）中用户在2020.8.19-2020.9.19的最新评分与评价<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614506978613.png" alt="" loading="lazy"><br>
+微博用户对B站的吐槽<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614506989948.png" alt="" loading="lazy"><br>
+本次共收集有效用户反馈121条，截图如下。<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614506999507.png" alt="" loading="lazy"></p>
+<ol>
+<li>需求整理与分析<br>
+收集完用户反馈后，需对反馈汇总整理，分析筛选后的用户需求，得出用户的诉求并转换为产品需求，判定优先级最后进入需求池。<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614507016851.png" alt="" loading="lazy"><br>
+删除重复需求后剩余104条用户需求，分类得到Bug修复需求14个，优化需求64个，新需求30个。</li>
+</ol>
+<p>下一步需要对用户需求进行分析，明确用户的诉求并转换为产品需求。本次仅分析用户提出的30个新需求。其中包含不同终端的用户反馈，平板端、pc端用户需求暂不做分析。经筛选，共有17个需求可以在优先级排序后进入需求池。</p>
+<p>优先级排序终究是产品经理基于经验的主观决定，但量化能最大程度保证排序的合理性。排序的两大指标是需求价值和需求成本，需求价值的计算需要纳入用户价值、公司价值等进行考量，需求成本则要考虑开发周期、技术风险和政策风险等。其他常见的确定需求优先级的方法还有：KANO模型、四象限法则、时间评估与性价比等等，可以按照实际需求纳入优先级排序指标。我们将这些模型纳入量化指标中：<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614507128519.png" alt="" loading="lazy"><br>
+用户价值中的需求层次按照KANO模型给予3至-1的得分，而公司价值各项指标则被赋予不同权重和分数，权重值为1-5，分数范围为1-10，最后计算出需求价值和成本，按优先级进入需求池，如图所示：<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614507140838.png" alt="" loading="lazy"><br>
+需求池字段要给根据公司、产品类型及产品经理工作习惯调整。本次需求池包含的字段如下：<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614507150769.png" alt="" loading="lazy"><br>
+接下来会选取优先级别最高的需求“长按屏幕倍速播放”进行产品优化迭代。为了对功能有更多理解，本项目下一步将针对常用视频app爱奇艺、优酷、腾讯视频的长按倍速功能做竞品分析报告。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[产品思考-如何看待微信 8.0 的状态功能？]]></title>
+        <id>https://Zoej-Zhang.github.io/post/chan-pin-si-kao-ru-he-kan-dai-wei-xin-80-de-zhuang-tai-gong-neng/</id>
+        <link href="https://Zoej-Zhang.github.io/post/chan-pin-si-kao-ru-he-kan-dai-wei-xin-80-de-zhuang-tai-gong-neng/">
+        </link>
+        <updated>2021-02-28T08:22:54.000Z</updated>
+        <content type="html"><![CDATA[<p>题目拆解：微信、状态功能、如何看待</p>
+<p>微信本质是即时通讯工具，主打熟人社交。随着版本优化微信逐渐加入了支付、打车、酒店等生活工具，成为了人们的一种生活方式。最新的 8.0 版本中新增的状态功能广受关注。<br>
+思考如何看待的问题时，可以从 5W2H 的角度尽量全面地找到角度。</p>
+<p><strong>What</strong><br>
+用户可以在「我的」页面中找到状态功能并添加自己当下的状态。目前系统给出的状态类型有心情想法、工作学习、活动、休息，也可自行定义。选择状态后可以发表简短的想法，加入话题、图片、位置等，还可以设置可见范围。发布后可以看到处于同样状态的朋友。<br>
+<strong>When</strong><br>
+在不结束、修改状态的情况下，一个状态会在24小时后自动结束。<br>
+<strong>Where</strong><br>
+状态的入口只在「我的」页面，用户设置后好友会在与其聊天页中看到其 ID 后的状态图标。<br>
+<strong>Why</strong><br>
+状态发布时的设计跟朋友圈的概念很相似。微信朋友圈逐渐式微，越来越多的人选择朋友圈三天可见或不再发布，因为现在的朋友圈承载的不只是生活的分享，还含有炫富、观点表达等更复杂的意味。状态的出现也许是微信对内容分享的一次拯救。与朋友圈相比，状态更加客观，只是当下活动的展现而更少主观展示。</p>
+<p>体验后的感受</p>
+<p>添加状态后虽然好友可以在聊天页看到自己的状态，自己却无法在主页面聊天页看到自己的状态，经常会忘记当前自己还处在一个状态中。如果想修改也只能再次回到「我的」页面，体验不够流畅。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[产品思考-为什么知乎会把编辑时间放在内容的末尾？]]></title>
         <id>https://Zoej-Zhang.github.io/post/12/</id>
