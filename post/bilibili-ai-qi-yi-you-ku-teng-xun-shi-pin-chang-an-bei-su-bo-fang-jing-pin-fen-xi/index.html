@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Bilibili-爱奇艺、优酷、腾讯视频长按倍速播放竞品分析 | Zoej 的PM成长录</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Zoej-Zhang.github.io/favicon.ico?v=1614521006141">
+<link rel="stylesheet" href="https://Zoej-Zhang.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="Highlight
+
+长按倍速的发展与解决的痛点：拖动快进难以定位视频位置。
+爱优腾更新长按倍速功能的时间、版本，筛选用户相关反馈，定位该功能的设计点
+
+
+是否快退
+变速值
+震动反馈
+松手后的播放速度
+
+
+针对上述问题设计问卷并投放，回收1..." />
+    <meta name="keywords" content="项目" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://Zoej-Zhang.github.io">
+        <img src="https://Zoej-Zhang.github.io/images/avatar.png?v=1614521006141" class="site-logo">
+        <h1 class="site-title">Zoej 的PM成长录</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故知新，三思后行
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Zoej-Zhang.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Bilibili-爱奇艺、优酷、腾讯视频长按倍速播放竞品分析</h2>
+            <div class="post-date">2021-02-28</div>
+            
+            <div class="post-content" v-pre>
+              <p><strong>Highlight</strong></p>
+<ol>
+<li>长按倍速的发展与解决的痛点：拖动快进难以定位视频位置。</li>
+<li>爱优腾更新长按倍速功能的时间、版本，筛选用户相关反馈，定位该功能的设计点</li>
+</ol>
+<ul>
+<li>是否快退</li>
+<li>变速值</li>
+<li>震动反馈</li>
+<li>松手后的播放速度</li>
+</ul>
+<ol start="3">
+<li>针对上述问题设计问卷并投放，回收124份问卷，确定功能设计细节。</li>
+</ol>
+<p><strong>一、音频与视频的倍速播放</strong><br>
+2018 年 4 月，酷狗音乐更新了长按播放键变速功能，平台内音频可调播放速度范围为0.5倍到1.5倍。2017-2018 同样是视频播放软件倍速播放开始流行的年份，从 PC 端本地播放器 Potplayer、KMplayer 到在线教育网站慕课、网易云课堂，很多人开始推荐使用倍速播放学习视频课程或刷剧，常见的变速倍数为0.75、常速、1.25、1.75和2倍速，这些速度在各大常见视频 app 中依然沿用至今。<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614519862022.png" alt="" loading="lazy">图1: 慕课倍速播放<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614519867850.png" alt="" loading="lazy">图2: 网易云课堂倍速播放<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614519872722.png" alt="" loading="lazy">图3: 爱奇艺倍速播放</p>
+<p>除了长视频播放，UGC短视频平台也同样注意到了用户对于倍速播放的需求。不同于长视频平台在播放时提供变速，短视频平台在视频创作时就提供了调速功能以便在完整表达的前提下将视频长度控制在规定时间内。<img src="https://Zoej-Zhang.github.io/post-images/1614519880243.png" alt="" loading="lazy">图4: 小红书视频发布变速功能</p>
+<p>除此之外，各视频播放平台还通过加入视频节点、显示播放流量等方式提醒用户精彩部分。如此种种努力，是为了适应当下高效率、快节奏的生活方式。尽管如此，对于大段用户不感兴趣的内容，连2倍速播放都无法安抚用户日益缺乏的耐心。大家更愿意拖动进度条找到自己想看的部分。对于进度条拖动，即便拖动时可以看到视频截图和时间轴，用户也无法准确把握该停手的时刻。在一些需要明确定位的节点上，用户常常陷入“快进太多错过片段开头，往回退又退太多要忍受上一段冗长衔接”的尴尬里。长按倍速播放的出现解决了拖动快进定位不准确的用户痛点。在那些反复拖动快进快退的场景中，长按倍速无疑安抚了用户卡不准点的烦躁。版权长视频中三足鼎立的爱奇艺、优酷和腾讯视频均上线了长按屏幕倍速播放的功能。而截至目前，以 PUGC 内容不断破圈的 B 站还未更新此功能。接下来，本文将就长按屏幕倍速播放功能对爱优腾作产品分析，并对 B 站关于此功能的上线优化提出建议。<br>
+ <br>
+<strong>二、竞品分析</strong><br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614520365910.png" alt="" loading="lazy">图5.1、5.2、5.3: 爱奇艺、优酷、腾讯视频相关功能上线版本</p>
+<p>三者当中，爱奇艺将起初长按快进2倍优化为长按快进3倍，长按屏幕任意位置均可触发，与优酷设计相似；腾讯视频用户则可以长按屏幕左侧快退，长按屏幕右侧快进，速度均为 3 倍速；“屏幕左侧”与“屏幕右侧”的界定以长按时屏幕出现的白色遮罩范围为准，在此范围外长按屏幕无法触发此功能。 <br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614520108809.png" alt="" loading="lazy">图6.1: 爱奇艺长按快进 3 倍速<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614520114731.png" alt="" loading="lazy">图6.2：优酷长按快进 3 倍速<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614520131787.png" alt="" loading="lazy">图6.3.1: 腾讯视频长按屏幕左侧快退 3 倍速<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614520137112.png" alt="" loading="lazy">图6.3.2: 腾讯视频长按屏幕右侧快进 3 倍速</p>
+<p>长按倍速的确解决了视频播放特定使用场景的用户痛点，B站用户在各大应用商店中也就此功能提出了需求反馈。长按屏幕倍速功能要做，但并不能简单地加入功能。是只做快进还是像腾讯视频一样兼顾快进和快退？触发热区如何界定？长按达到几倍速？这些问题从三大竞品的用户反馈中可见一斑。<br>
+ <br>
+根据七麦数据中爱奇艺、优酷的各应用商店用户评价，利用“倍速”筛选长按3倍速播放功能相关的反馈可以得出该功能目前存在以下几个问题：<br>
+1.    长按快进的震动反馈不可调；<br>
+2.    3倍速看不清剧情、听不清说话，希望可以自己调节；<br>
+3.    无法快退；<br>
+4.    结束长按后恢复原速度。<br>
+ <br>
+按照同样的方式，可以找出用户对于腾讯视频长按快进/快退的反馈：<br>
+1.    误触播放界面其他功能，如弹幕放大，截图；<br>
+2.    快进时误触快退，希望可自行调节快退开关；<br>
+3.    3倍速太快。<br>
+ <br>
+总结以上问题，长按倍速的关注点为：<br>
+1.    快进/快退：是否需要快退，用户能否自行开关快退，两种操作如何区分；<br>
+2.    变速：快进/快退速度，是否可调；<br>
+3.    长按时：是否需要震动反馈，是否可调；<br>
+4.    结束长按时：若长按前已有倍速调节，恢复常速还是恢复已调倍速。<br>
+ <br>
+对于需求中这些较为明确的关注点，可以通过问卷调查的方式收集用户反馈。笔者设计并投放了问卷，共收集 142 份有效回复。经过分析得出，知道长按倍速播放功能的用户占 4 成，在这些用户总该功能使用率近 9 成；而针对以上 4 个关键点，7成受访者表示既需要快进也需要快退，更改速度希望可调；选择 2 倍速和 3 倍速的人数比为6:1；关于震动反馈， 5 成用户表示需要，3 成认为不需要，2 成无所谓；若在长按前已对视频进行倍速播放，长按结束后 6 成用户希望恢复常速播放，4 成希望恢复其已调节的速度。<br>
+ <br>
+根据以上数据，对 B 站视频倍速播放提出以下优化建议：</p>
+<ol>
+<li>默认长按左侧屏幕快退，长按右侧屏幕快进；</li>
+<li>设置中可关闭长按快退功能，关闭后长按屏幕只快进播放；</li>
+<li>默认长按快进/快退 2 倍速，设置中可将默认倍速设置为 2 倍，2.75 倍，3 倍；</li>
+<li>默认长按时震动反馈，设置中可关闭；</li>
+<li>若在长按前已对视频进行倍速播放，默认长按结束后恢复常速播放，设置中可调整为恢复已调节的速度继续播放。</li>
+</ol>
+<p>关于第 2 点倍速调节，还有长按时左右滑动调节变速的想法，但考虑到长按快退打开、需左右分屏区分快进/快退的情况下，再加入左右滑动容易造成功能重叠误触，在此暂且搁置。</p>
+<p>还有一问题亟待解决，就是触发长按倍速功能的屏幕热区范围如何划分。考虑到此需求目前只针对手机端用户，手机端用户在日常看视频时需手持观看，使用拇指操作屏幕，故左右两侧触发热区以拇指舒适活动范围为宜，也不需要扩展至屏幕正中不常触摸的位置。同时借鉴腾讯视频用户反应的功能误触，左右需要避开屏幕边缘如截图、锁定等功能。<br>
+ <br>
+<strong>三、优化后的产品原型</strong><br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614520178938.jpg" alt="" loading="lazy">图7.1：默认长按屏幕左侧2倍快退<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614520187456.jpg" alt="" loading="lazy">图7.2: 默认长按屏幕右侧2倍快进（此透明遮罩为显示触发热区，实际操作时无透明遮罩）<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614520201301.png" alt="" loading="lazy">图7.3: 长按倍速在设置面板<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614520207185.jpg" alt="" loading="lazy">图7.4: 关闭长按快退、将变速调为3倍速页面<br>
+ <br>
+参考来源：</p>
+<p>https://smart.huanqiu.com/article/9CaKrnK7SLo<br>
+https://www.bilibili.com/read/cv1249555<br>
+https://www.jianshu.com/p/6673d143bf5a<br>
+https://www.douban.com/group/topic/129486826/<br>
+https://www.huxiu.com/article/345736.html</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://Zoej-Zhang.github.io/tag/6ABDDualJ/" class="tag">
+                    项目
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://Zoej-Zhang.github.io/post/bilibili-yong-hu-xu-qiu-shou-ji-fen-xi-shuo-ming/">
+                  <h3 class="post-title">
+                    Bilibili-用户需求收集分析说明
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
