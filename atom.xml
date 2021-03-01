@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Zoej-Zhang.github.io</id>
     <title>Zoej 的PM成长录</title>
-    <updated>2021-03-01T06:30:36.686Z</updated>
+    <updated>2021-03-01T09:10:08.467Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Zoej-Zhang.github.io"/>
     <link rel="self" href="https://Zoej-Zhang.github.io/atom.xml"/>
@@ -10,6 +10,65 @@
     <logo>https://Zoej-Zhang.github.io/images/avatar.png</logo>
     <icon>https://Zoej-Zhang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Zoej 的PM成长录</rights>
+    <entry>
+        <title type="html"><![CDATA[Sociopedia-product brief]]></title>
+        <id>https://Zoej-Zhang.github.io/post/sociopedia-product-brief/</id>
+        <link href="https://Zoej-Zhang.github.io/post/sociopedia-product-brief/">
+        </link>
+        <updated>2021-03-05T08:50:54.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>背景</strong><br>
+在进入大学前，青少年的日常事务多由父母代为解决。进入大学、步入社会后便需要独立面对诸多社会事务，却并没有专门的课程指导刚成年的人们去哪及如何处理相关流程。年轻人往往需要先在各平台搜索、集合、筛选所需信息，又因为信息更新不够及时来回跑多次。人们需要一个社会相关事务的信息聚合平台，能够便捷搜索到最新的解决方案和注意事项。</p>
+<p><strong>产品目标</strong><br>
+打造覆盖各类社会事务的搜索工具，涵盖住、行、就医、保险等内容，为缺少社会经验的年轻人提供了解问题、解决问题的平台。</p>
+<p><strong>产品方向</strong><br>
+Sociopedia 是内容搜索工具，是一个强内容运营产品。<br>
+为了保证内容的质量和准确性，Sociopedia 在初始时期不会打造 UGC 社区。但为及时更新最新内容，Sociopedia 采取众包模式，允许用户申请编辑内容。</p>
+<p><strong>用户画像</strong><br>
+A 是准备考研的大四学生。舍友们作息不同，他总是休息不好影响白天学习。于是 A 决定在学校附近租一个房间备考。他先看了几家中介的网站，又在朋友推荐下看了豆瓣租房小组，加了几个人发现还是中介，套路花样百出。A 通过百度、小红书、微博等方式搜索哪种租房方式更靠谱，收集到的信息让A懒得再去整理。他希望有人能告诉他租房有哪些渠道，各有什么利弊，有什么坑需要躲开。</p>
+<p>B 工作了三年，决定买一辆车方便通勤。她去 4s 店看中了一台车，在一些垂类 app 里搜到了买车的步骤，了解了从意向到提车的几个步骤，但往后还有什么手续要办，去哪里办，是否需要每年检查更新，她还是有些迷茫。她想要明确整套买车流程手续和买车后要了解的全部注意事项。</p>
+<p><strong>主任务流程</strong><br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614588700193.png" alt="" loading="lazy"><br>
+用户主任务是找到目标内容，此路径的前置条件可能是目的性搜索或随意浏览。在此条主任务流程中会产生支线行动路线，如筛选结果页、收藏内容、编辑内容和分享内容。</p>
+<p><strong>功能搭建</strong><br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614588749232.png" alt="" loading="lazy"><br>
+为了更好的问题解决体验，搜索是最主要的功能。在搜索结果中用户可切换城市、根据不同条件筛选。如果没有找到想看的内容，用户可以通过反馈功能提交缺少的话题。<br>
+在内容详情中设置目录，用户可以直接定位至自己想查看的标题。为了方便下次查看，用户可将内容收藏起来在「我的」中查看。同时也可将内容分享至其它应用，有助于产品传播。<br>
+如果对内容有异议，用户可以申请对内容进行修改。修改的内容会提交审核，48小时内返回审核结果。针对此功能需要有效的审核机制。<br>
+如果没有明确的搜索内容，首页会展示各类主题，用户可点击查看子主题并进入详情页浏览内容。</p>
+<p><strong>审核机制</strong><br>
+原则、创建、编辑</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[产品思考-百度地图在哪些场景适合切入 UGC？]]></title>
+        <id>https://Zoej-Zhang.github.io/post/chan-pin-si-kao-bai-du-di-tu-zai-na-xie-chang-jing-gua-he-qie-ru-ugc/</id>
+        <link href="https://Zoej-Zhang.github.io/post/chan-pin-si-kao-bai-du-di-tu-zai-na-xie-chang-jing-gua-he-qie-ru-ugc/">
+        </link>
+        <updated>2021-03-04T08:49:02.000Z</updated>
+        <content type="html"><![CDATA[<p>题目拆解：百度地图、场景、UGC</p>
+<p>百度地图是地图工具类产品，满足的用户需求包括目标定位、路线查询、出行导航、周边搜索等。<br>
+UGC 是用户生产的内容，与 PGC 相比内容更具多样性，让用户觉得更加真实可信。工具产品本身的特点是用完即走，平均使用时长较短。切入内容是工具产品常见的增加使用时长的做法，可以让用户在完成工具使用目标后浏览停留。UGC 的形式包括图片、文字、视频、音频，可以根据不同场景选择不同的形式。</p>
+<p>使用地图的场景可以分为两大类，即明确出行和模糊出行。</p>
+<ol>
+<li>明确出行<br>
+明确出行地点的场景即用户知道自己想去什么地方，主要使用路径为</li>
+</ol>
+<ul>
+<li>搜索-筛选/查询结果-查看目标位置</li>
+</ul>
+<ol start="2">
+<li>模糊搜索<br>
+在不确定出行目的地的场景下，用户需要根据目的如吃、玩、逛最终确定目标。满足此需求的路径有：</li>
+</ol>
+<ul>
+<li>搜索关键词（如饭店、公园、超市）-浏览结果—决定目的地，与明确出行的使用路径略相似。</li>
+<li>平台推荐目的地</li>
+</ul>
+<p>在搜索行为路径下，无论是精确还是模糊搜索，都只能在结果详情页切入 UGC。一方面可以丰富页面内容，增加用户的页面停留时长，同时 UGC 也为用户决定出行目的地提供了参考。</p>
+<p>在平台推荐场景下，可以增加笔记类内容，展示以地理位置、热门程度等为指标的用户图文/视频笔记，方便用户种草决定。</p>
+<p>以上两条路径可能延伸出的行为还有路线查询和出行导航。路线查询的场景有较强实用目的，不适合加入内容分散用户注意力。在各类导航场景中，步行、骑行同样不宜分散用户注意力，以免造成安全隐患。驾车导航场景中可以在堵车路段增加 UGC，便于用户实时分享路况；打车场景中可以在等待接驾时间内切入目的地周边相关 UGC，便于用户浏览。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[产品思考-谈谈对画音的看法]]></title>
         <id>https://Zoej-Zhang.github.io/post/chan-pin-si-kao-tan-tan-dui-hua-yin-de-kan-fa/</id>
