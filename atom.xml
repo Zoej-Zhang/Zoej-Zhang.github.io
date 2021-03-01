@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Zoej-Zhang.github.io</id>
     <title>Zoej 的PM成长录</title>
-    <updated>2021-02-28T14:04:45.611Z</updated>
+    <updated>2021-03-01T06:30:36.686Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Zoej-Zhang.github.io"/>
     <link rel="self" href="https://Zoej-Zhang.github.io/atom.xml"/>
@@ -11,11 +11,111 @@
     <icon>https://Zoej-Zhang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Zoej 的PM成长录</rights>
     <entry>
+        <title type="html"><![CDATA[产品思考-谈谈对画音的看法]]></title>
+        <id>https://Zoej-Zhang.github.io/post/chan-pin-si-kao-tan-tan-dui-hua-yin-de-kan-fa/</id>
+        <link href="https://Zoej-Zhang.github.io/post/chan-pin-si-kao-tan-tan-dui-hua-yin-de-kan-fa/">
+        </link>
+        <updated>2021-03-03T08:50:11.000Z</updated>
+        <content type="html"><![CDATA[<p>谈产品，可以从自己建立的产品思维框架入手，考虑定位、产品设计、运营手段和商业化。</p>
+<p>画音是微信前产品负责人创立的熟人视频社交产品，集 IM、视频拍摄工具和社交动态于一体，将视频短信作为载体进行社交。</p>
+<p>产品功能分为对话、拍摄、故事三部分。对话相当于微信的聊天页面，区别在于画音的沟通载体是视频，发送视频消息即打开拍摄工具。画音的拍摄工具可以不点击按钮，说话即开始录音，录制结束后可进行编辑，更换路径，还能根据说话的内容自动加字幕和表情。故事类似于微信的朋友圈，可以看朋友和陌生人发布的故事并进行回复。</p>
+<p>画音的特色就在于视频社交，将完整的视频拍摄编辑工具嵌入聊天工具中，并将视频编辑智能化。与同类视频剪辑产品相比，画音的拍摄剪辑更简洁快速，降低视频制作成本，更便捷发送视频短信。</p>
+<p>视频社交能否成为将来的大趋势是个值得关注的问题。人们通过互联网进行的社交形式，从文字发展到语音，到如今越来越多的人通过短视频分享自己的生活。但在微信中，文字仍是最主要的交流方式，语音和视频沟通仅作为文字的辅助。画音存在的问题也许就在于，人们是否者真正习惯面对突如其来打开的前置摄像头并开口说话。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[产品思考-QQ 该如何接受虾米音乐关停后的精神难民？]]></title>
+        <id>https://Zoej-Zhang.github.io/post/chan-pin-si-kao-qq-gai-ru-he-jie-shou-xia-mi-yin-le-guan-ting-hou-de-jing-shen-nan-min/</id>
+        <link href="https://Zoej-Zhang.github.io/post/chan-pin-si-kao-qq-gai-ru-he-jie-shou-xia-mi-yin-le-guan-ting-hou-de-jing-shen-nan-min/">
+        </link>
+        <updated>2021-03-02T04:29:38.000Z</updated>
+        <content type="html"><![CDATA[<p>题目拆解：QQ音乐、虾米音乐、遗留用户</p>
+<p>QQ 音乐是腾讯旗下的流音乐平台，拥有海量音乐版权。面向的用户群较年轻，音乐品味相对大众流行。产品的特色之处是根据年轻用户的喜好发展出的粉丝经济，通过偶像新歌打榜、应援等方式巩固其用户群体。<br>
+虾米音乐的用户则对音乐的审美要求更高，品味偏小众。同时扶持原创音乐人，产品内音乐氛围更加纯粹。</p>
+<p>虾米音乐的遗留用户被迫舍弃的遗产可以归纳为三类：</p>
+<ol>
+<li>平台内容类：如虾米音乐中的独家音乐人、符合用户口味的推荐算法</li>
+<li>自建内容类：如用户自行创建的歌单</li>
+<li>会员充值类：付费会员在虾米音乐尚未到期的会员</li>
+</ol>
+<p>QQ 音乐首先要考虑两产品用户的异同，既要巩固已有用户，也要能针对虾米音乐用户吸引其到自家平台。从产品设计、运营和商业化的角度思考，功能上 QQ 音乐支持导入外部歌单，解决了虾米用户自建歌单的问题；而虾米的独特内容如独家版权、原创音乐人，QQ 音乐可以与版权商洽谈接管；商业化方面，为了鼓励虾米用户进入QQ 音乐及其付费用户在QQ音乐再付费，可对其进行会员优惠活动。</p>
+<p>本次活动可以打包为「音乐星球移民」活动策划，主要宣传的内容有：</p>
+<ol>
+<li>虾米音乐歌单一键导入至 QQ 音乐</li>
+<li>接手虾米音乐独家版权和原创音乐人</li>
+<li>精准推荐算法，流行、小众总有你喜欢</li>
+<li>原虾米音乐用户购买QQ 音乐会员享8折优惠，原虾米音乐 VIP 购买 QQ音乐会员享5折优惠</li>
+</ol>
+<p>宣传途径可以包含：</p>
+<ol>
+<li>广告投放，如各媒体平台、视频平台中投放活动广告</li>
+<li>新媒体运营，如官方双微账号活动推广</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bilibili-长按屏幕倍速播放PRD]]></title>
+        <id>https://Zoej-Zhang.github.io/post/bilibili-chang-an-ping-mu-bei-su-bo-fang-prd/</id>
+        <link href="https://Zoej-Zhang.github.io/post/bilibili-chang-an-ping-mu-bei-su-bo-fang-prd/">
+        </link>
+        <updated>2021-03-01T12:23:53.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>一、背景</strong><br>
+本次迭代将对视频播放器进行优化，增加长按屏幕倍速播放功能，且就功能相关调节（长按快退、变速值、震动反馈）给予用户自主设置权。<br>
+通过苹果、安卓各大应用商店中 Bilibili 用户评价及微博关键词搜索，从 121 条用户反馈中整理了 17 条手机端需求做优先级排序。在考虑用户价值（用户需求层次、体验提升）、企业价值（用户增长、用户粘性、商业价值等）、需求风险（开发周期、技术风险等）后，选择优先开发视频播放器长按屏幕倍速播放功能。<br>
+在已上线此功能的视频产品中，我选择了爱奇艺、优酷和腾讯视频做竞品分析，主要对比触发长按变速的屏幕热区和倍速。再针对这三个产品用户对该功能的反馈，制作并发放、分析调查问卷，得出长按快退、长按后倍速该拜年和长按时震动反馈的相关结论，详细内容见上篇竞品分析报告。<br>
+<strong>二、角色说明</strong><br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521328820.png" alt="" loading="lazy"><br>
+<strong>三、功能清单</strong><br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521336397.png" alt="" loading="lazy"><br>
+<strong>四、功能详细说明</strong></p>
+<ol>
+<li>功能介绍<br>
+视频播放器增加长按屏幕倍速播放功能，且用户可自主设置长按快退开启/关闭、长按倍速和震动反馈。优先级 P0。</li>
+<li>前置条件<br>
+用户全屏播放视频</li>
+<li>主干逻辑流程及页面逻辑图</li>
+</ol>
+<ul>
+<li>首页</li>
+<li>用户点击视频</li>
+<li>全屏播放</li>
+<li>长按屏幕左侧快退、长按屏幕右侧快进，速度2倍速，长按时震动反馈<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521391915.png" alt="" loading="lazy"></li>
+</ul>
+<ol start="4">
+<li>分支过程</li>
+</ol>
+<ul>
+<li>首页</li>
+<li>用户点击视频</li>
+<li>全屏播放</li>
+<li>播放设置</li>
+<li>根据快进/快退、倍速、震动反馈等设置，长按屏幕变速播放<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521406843.png" alt="" loading="lazy"></li>
+</ul>
+<ol start="5">
+<li>原型及页面详细内容说明</li>
+</ol>
+<ul>
+<li>前置条件流程页面<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521420553.png" alt="" loading="lazy"></li>
+<li>长按屏幕左侧热区与倍速弹窗<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521465624.png" alt="" loading="lazy"></li>
+<li>长按屏幕右侧热区与倍速弹窗<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521474827.png" alt="" loading="lazy"></li>
+<li>长按屏幕倍速播放设置<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521542733.png" alt="" loading="lazy"></li>
+<li>关闭长按快退、将速度调至3倍速后，长按屏幕快进热区与倍速弹窗<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521555358.png" alt="" loading="lazy"></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Bilibili-爱奇艺、优酷、腾讯视频长按倍速播放竞品分析]]></title>
         <id>https://Zoej-Zhang.github.io/post/bilibili-ai-qi-yi-you-ku-teng-xun-shi-pin-chang-an-bei-su-bo-fang-jing-pin-fen-xi/</id>
         <link href="https://Zoej-Zhang.github.io/post/bilibili-ai-qi-yi-you-ku-teng-xun-shi-pin-chang-an-bei-su-bo-fang-jing-pin-fen-xi/">
         </link>
-        <updated>2021-02-28T11:12:50.000Z</updated>
+        <updated>2021-03-01T06:15:54.000Z</updated>
         <content type="html"><![CDATA[<p><strong>Highlight</strong></p>
 <ol>
 <li>长按倍速的发展与解决的痛点：拖动快进难以定位视频位置。</li>
@@ -96,7 +196,7 @@ https://www.huxiu.com/article/345736.html</p>
         <id>https://Zoej-Zhang.github.io/post/bilibili-yong-hu-xu-qiu-shou-ji-fen-xi-shuo-ming/</id>
         <link href="https://Zoej-Zhang.github.io/post/bilibili-yong-hu-xu-qiu-shou-ji-fen-xi-shuo-ming/">
         </link>
-        <updated>2021-02-28T09:53:23.000Z</updated>
+        <updated>2021-03-01T01:15:23.000Z</updated>
         <content type="html"><![CDATA[<p><strong>Highlight</strong></p>
 <ol>
 <li>2020.8-2020.9 通过应用商店和微博收集用户反馈 121 条。经清洗分类得到 bug 14个，优化需求 64 个，新需求 30 个。</li>

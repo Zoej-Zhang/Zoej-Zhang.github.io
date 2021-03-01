@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Bilibili-长按屏幕倍速播放PRD | Zoej 的PM成长录</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Zoej-Zhang.github.io/favicon.ico?v=1614580215925">
+<link rel="stylesheet" href="https://Zoej-Zhang.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="一、背景
+本次迭代将对视频播放器进行优化，增加长按屏幕倍速播放功能，且就功能相关调节（长按快退、变速值、震动反馈）给予用户自主设置权。
+通过苹果、安卓各大应用商店中 Bilibili 用户评价及微博关键词搜索，从 121 条用户反馈中整理了..." />
+    <meta name="keywords" content="项目" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://Zoej-Zhang.github.io">
+        <img src="https://Zoej-Zhang.github.io/images/avatar.png?v=1614580215925" class="site-logo">
+        <h1 class="site-title">Zoej 的PM成长录</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故知新，三思后行
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Zoej-Zhang.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Bilibili-长按屏幕倍速播放PRD</h2>
+            <div class="post-date">2021-03-01</div>
+            
+              <div class="feature-container" style="background-image: url('https://Zoej-Zhang.github.io/post-images/bilibili-chang-an-ping-mu-bei-su-bo-fang-prd.jpg')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p><strong>一、背景</strong><br>
+本次迭代将对视频播放器进行优化，增加长按屏幕倍速播放功能，且就功能相关调节（长按快退、变速值、震动反馈）给予用户自主设置权。<br>
+通过苹果、安卓各大应用商店中 Bilibili 用户评价及微博关键词搜索，从 121 条用户反馈中整理了 17 条手机端需求做优先级排序。在考虑用户价值（用户需求层次、体验提升）、企业价值（用户增长、用户粘性、商业价值等）、需求风险（开发周期、技术风险等）后，选择优先开发视频播放器长按屏幕倍速播放功能。<br>
+在已上线此功能的视频产品中，我选择了爱奇艺、优酷和腾讯视频做竞品分析，主要对比触发长按变速的屏幕热区和倍速。再针对这三个产品用户对该功能的反馈，制作并发放、分析调查问卷，得出长按快退、长按后倍速该拜年和长按时震动反馈的相关结论，详细内容见上篇竞品分析报告。<br>
+<strong>二、角色说明</strong><br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521328820.png" alt="" loading="lazy"><br>
+<strong>三、功能清单</strong><br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521336397.png" alt="" loading="lazy"><br>
+<strong>四、功能详细说明</strong></p>
+<ol>
+<li>功能介绍<br>
+视频播放器增加长按屏幕倍速播放功能，且用户可自主设置长按快退开启/关闭、长按倍速和震动反馈。优先级 P0。</li>
+<li>前置条件<br>
+用户全屏播放视频</li>
+<li>主干逻辑流程及页面逻辑图</li>
+</ol>
+<ul>
+<li>首页</li>
+<li>用户点击视频</li>
+<li>全屏播放</li>
+<li>长按屏幕左侧快退、长按屏幕右侧快进，速度2倍速，长按时震动反馈<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521391915.png" alt="" loading="lazy"></li>
+</ul>
+<ol start="4">
+<li>分支过程</li>
+</ol>
+<ul>
+<li>首页</li>
+<li>用户点击视频</li>
+<li>全屏播放</li>
+<li>播放设置</li>
+<li>根据快进/快退、倍速、震动反馈等设置，长按屏幕变速播放<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521406843.png" alt="" loading="lazy"></li>
+</ul>
+<ol start="5">
+<li>原型及页面详细内容说明</li>
+</ol>
+<ul>
+<li>前置条件流程页面<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521420553.png" alt="" loading="lazy"></li>
+<li>长按屏幕左侧热区与倍速弹窗<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521465624.png" alt="" loading="lazy"></li>
+<li>长按屏幕右侧热区与倍速弹窗<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521474827.png" alt="" loading="lazy"></li>
+<li>长按屏幕倍速播放设置<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521542733.png" alt="" loading="lazy"></li>
+<li>关闭长按快退、将速度调至3倍速后，长按屏幕快进热区与倍速弹窗<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1614521555358.png" alt="" loading="lazy"></li>
+</ul>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://Zoej-Zhang.github.io/tag/6ABDDualJ/" class="tag">
+                    项目
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://Zoej-Zhang.github.io/post/bilibili-ai-qi-yi-you-ku-teng-xun-shi-pin-chang-an-bei-su-bo-fang-jing-pin-fen-xi/">
+                  <h3 class="post-title">
+                    Bilibili-爱奇艺、优酷、腾讯视频长按倍速播放竞品分析
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
