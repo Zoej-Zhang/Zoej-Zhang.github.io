@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Zoej-Zhang.github.io</id>
     <title>Zoej 的PM成长录</title>
-    <updated>2021-03-01T09:10:08.467Z</updated>
+    <updated>2021-03-02T14:37:06.088Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Zoej-Zhang.github.io"/>
     <link rel="self" href="https://Zoej-Zhang.github.io/atom.xml"/>
@@ -11,11 +11,31 @@
     <icon>https://Zoej-Zhang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Zoej 的PM成长录</rights>
     <entry>
+        <title type="html"><![CDATA[产品思考-如何提高一个短视频app的日活？]]></title>
+        <id>https://Zoej-Zhang.github.io/post/chan-pin-si-kao-ru-he-ti-gao-yi-ge-duan-shi-pin-app-de-ri-huo/</id>
+        <link href="https://Zoej-Zhang.github.io/post/chan-pin-si-kao-ru-he-ti-gao-yi-ge-duan-shi-pin-app-de-ri-huo/">
+        </link>
+        <updated>2021-03-02T14:35:24.000Z</updated>
+        <content type="html"><![CDATA[<p>题目拆解：短视频 app，提高日活</p>
+<p>短视频产品主打长度在 3 分钟内的视频，常见的 app 有抖音、快手及微博、小红书的视频流内容。短视频 app 所满足的用户需求主要是生活消遣、休息娱乐，找一些有趣的内容打发时间。这类产品最主要是特色就是个性化推荐算法，根据用户的浏览行为向用户精准推荐其感兴趣的内容从而增加用户使用时长。</p>
+<p>日活即每日活跃用户数 DAU。日活的标准可以是每日打开 app 的用户，也可以设定为打开且在产品内停留特定时间或完成特定行为的用户。为了统一，可以把本题中的日活标准制定为每日打开 app 的用户。</p>
+<p>提高日活即鼓励用户打开 app。在达到此目标基础上使用户尽量久的留在产品中。</p>
+<p>可以从产品设计和运营两方面考虑。</p>
+<ol>
+<li>产品设计<br>
+为了鼓励用户打开 app，可以设置每日签到机制。签到可获得积分，且连续签到有更多奖励。积分可根据产品特点进行兑换、优惠等。<br>
+为了让用户在产品中停留尽量长的时间，一方面可以像抖音做竖屏沉浸式视频流，另一方面要优化推荐算法机制，使得推荐的内容更加符合用户口味。也可以增加娱乐游戏，如好友 pk，增加产品的趣味性。</li>
+<li>运营<br>
+制定 push 策略，根据用户画像每日发布 push，维护高频用户、召回流失用户。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Sociopedia-product brief]]></title>
         <id>https://Zoej-Zhang.github.io/post/sociopedia-product-brief/</id>
         <link href="https://Zoej-Zhang.github.io/post/sociopedia-product-brief/">
         </link>
-        <updated>2021-03-05T08:50:54.000Z</updated>
+        <updated>2021-03-01T08:50:54.000Z</updated>
         <content type="html"><![CDATA[<p><strong>背景</strong><br>
 在进入大学前，青少年的日常事务多由父母代为解决。进入大学、步入社会后便需要独立面对诸多社会事务，却并没有专门的课程指导刚成年的人们去哪及如何处理相关流程。年轻人往往需要先在各平台搜索、集合、筛选所需信息，又因为信息更新不够及时来回跑多次。人们需要一个社会相关事务的信息聚合平台，能够便捷搜索到最新的解决方案和注意事项。</p>
 <p><strong>产品目标</strong><br>
@@ -44,7 +64,7 @@ A 是准备考研的大四学生。舍友们作息不同，他总是休息不好
         <id>https://Zoej-Zhang.github.io/post/chan-pin-si-kao-bai-du-di-tu-zai-na-xie-chang-jing-gua-he-qie-ru-ugc/</id>
         <link href="https://Zoej-Zhang.github.io/post/chan-pin-si-kao-bai-du-di-tu-zai-na-xie-chang-jing-gua-he-qie-ru-ugc/">
         </link>
-        <updated>2021-03-04T08:49:02.000Z</updated>
+        <updated>2021-03-01T08:49:02.000Z</updated>
         <content type="html"><![CDATA[<p>题目拆解：百度地图、场景、UGC</p>
 <p>百度地图是地图工具类产品，满足的用户需求包括目标定位、路线查询、出行导航、周边搜索等。<br>
 UGC 是用户生产的内容，与 PGC 相比内容更具多样性，让用户觉得更加真实可信。工具产品本身的特点是用完即走，平均使用时长较短。切入内容是工具产品常见的增加使用时长的做法，可以让用户在完成工具使用目标后浏览停留。UGC 的形式包括图片、文字、视频、音频，可以根据不同场景选择不同的形式。</p>
@@ -74,7 +94,7 @@ UGC 是用户生产的内容，与 PGC 相比内容更具多样性，让用户�
         <id>https://Zoej-Zhang.github.io/post/chan-pin-si-kao-tan-tan-dui-hua-yin-de-kan-fa/</id>
         <link href="https://Zoej-Zhang.github.io/post/chan-pin-si-kao-tan-tan-dui-hua-yin-de-kan-fa/">
         </link>
-        <updated>2021-03-03T08:50:11.000Z</updated>
+        <updated>2021-02-24T08:50:11.000Z</updated>
         <content type="html"><![CDATA[<p>谈产品，可以从自己建立的产品思维框架入手，考虑定位、产品设计、运营手段和商业化。</p>
 <p>画音是微信前产品负责人创立的熟人视频社交产品，集 IM、视频拍摄工具和社交动态于一体，将视频短信作为载体进行社交。</p>
 <p>产品功能分为对话、拍摄、故事三部分。对话相当于微信的聊天页面，区别在于画音的沟通载体是视频，发送视频消息即打开拍摄工具。画音的拍摄工具可以不点击按钮，说话即开始录音，录制结束后可进行编辑，更换路径，还能根据说话的内容自动加字幕和表情。故事类似于微信的朋友圈，可以看朋友和陌生人发布的故事并进行回复。</p>
@@ -87,7 +107,7 @@ UGC 是用户生产的内容，与 PGC 相比内容更具多样性，让用户�
         <id>https://Zoej-Zhang.github.io/post/chan-pin-si-kao-qq-gai-ru-he-jie-shou-xia-mi-yin-le-guan-ting-hou-de-jing-shen-nan-min/</id>
         <link href="https://Zoej-Zhang.github.io/post/chan-pin-si-kao-qq-gai-ru-he-jie-shou-xia-mi-yin-le-guan-ting-hou-de-jing-shen-nan-min/">
         </link>
-        <updated>2021-03-02T04:29:38.000Z</updated>
+        <updated>2021-02-20T04:29:38.000Z</updated>
         <content type="html"><![CDATA[<p>题目拆解：QQ音乐、虾米音乐、遗留用户</p>
 <p>QQ 音乐是腾讯旗下的流音乐平台，拥有海量音乐版权。面向的用户群较年轻，音乐品味相对大众流行。产品的特色之处是根据年轻用户的喜好发展出的粉丝经济，通过偶像新歌打榜、应援等方式巩固其用户群体。<br>
 虾米音乐的用户则对音乐的审美要求更高，品味偏小众。同时扶持原创音乐人，产品内音乐氛围更加纯粹。</p>
@@ -117,7 +137,7 @@ UGC 是用户生产的内容，与 PGC 相比内容更具多样性，让用户�
         <id>https://Zoej-Zhang.github.io/post/bilibili-chang-an-ping-mu-bei-su-bo-fang-prd/</id>
         <link href="https://Zoej-Zhang.github.io/post/bilibili-chang-an-ping-mu-bei-su-bo-fang-prd/">
         </link>
-        <updated>2021-03-01T12:23:53.000Z</updated>
+        <updated>2021-02-11T12:23:53.000Z</updated>
         <content type="html"><![CDATA[<p><strong>一、背景</strong><br>
 本次迭代将对视频播放器进行优化，增加长按屏幕倍速播放功能，且就功能相关调节（长按快退、变速值、震动反馈）给予用户自主设置权。<br>
 通过苹果、安卓各大应用商店中 Bilibili 用户评价及微博关键词搜索，从 121 条用户反馈中整理了 17 条手机端需求做优先级排序。在考虑用户价值（用户需求层次、体验提升）、企业价值（用户增长、用户粘性、商业价值等）、需求风险（开发周期、技术风险等）后，选择优先开发视频播放器长按屏幕倍速播放功能。<br>
@@ -174,7 +194,7 @@ UGC 是用户生产的内容，与 PGC 相比内容更具多样性，让用户�
         <id>https://Zoej-Zhang.github.io/post/bilibili-ai-qi-yi-you-ku-teng-xun-shi-pin-chang-an-bei-su-bo-fang-jing-pin-fen-xi/</id>
         <link href="https://Zoej-Zhang.github.io/post/bilibili-ai-qi-yi-you-ku-teng-xun-shi-pin-chang-an-bei-su-bo-fang-jing-pin-fen-xi/">
         </link>
-        <updated>2021-03-01T06:15:54.000Z</updated>
+        <updated>2021-02-05T06:15:54.000Z</updated>
         <content type="html"><![CDATA[<p><strong>Highlight</strong></p>
 <ol>
 <li>长按倍速的发展与解决的痛点：拖动快进难以定位视频位置。</li>
@@ -255,7 +275,7 @@ https://www.huxiu.com/article/345736.html</p>
         <id>https://Zoej-Zhang.github.io/post/bilibili-yong-hu-xu-qiu-shou-ji-fen-xi-shuo-ming/</id>
         <link href="https://Zoej-Zhang.github.io/post/bilibili-yong-hu-xu-qiu-shou-ji-fen-xi-shuo-ming/">
         </link>
-        <updated>2021-03-01T01:15:23.000Z</updated>
+        <updated>2021-01-31T01:15:23.000Z</updated>
         <content type="html"><![CDATA[<p><strong>Highlight</strong></p>
 <ol>
 <li>2020.8-2020.9 通过应用商店和微博收集用户反馈 121 条。经清洗分类得到 bug 14个，优化需求 64 个，新需求 30 个。</li>
@@ -297,7 +317,7 @@ https://www.huxiu.com/article/345736.html</p>
         <id>https://Zoej-Zhang.github.io/post/chan-pin-si-kao-ru-he-kan-dai-wei-xin-80-de-zhuang-tai-gong-neng/</id>
         <link href="https://Zoej-Zhang.github.io/post/chan-pin-si-kao-ru-he-kan-dai-wei-xin-80-de-zhuang-tai-gong-neng/">
         </link>
-        <updated>2021-02-28T08:22:54.000Z</updated>
+        <updated>2021-01-26T08:22:54.000Z</updated>
         <content type="html"><![CDATA[<p>题目拆解：微信、状态功能、如何看待</p>
 <p>微信本质是即时通讯工具，主打熟人社交，私域流量池。随着版本优化微信逐渐加入了支付、打车、酒店等生活工具，成为了人们的一种生活方式。最新的 8.0 版本中新增的状态功能广受关注。用户可以分享自己的生活状态，寻找与自己同状态的好友。<br>
 思考如何看待的问题时，可以从 5W1H 的角度尽量全面地找到角度。</p>
@@ -323,7 +343,7 @@ https://www.huxiu.com/article/345736.html</p>
         <id>https://Zoej-Zhang.github.io/post/12/</id>
         <link href="https://Zoej-Zhang.github.io/post/12/">
         </link>
-        <updated>2021-02-26T10:10:53.000Z</updated>
+        <updated>2021-01-20T10:10:53.000Z</updated>
         <content type="html"><![CDATA[<p>题目拆解：知乎、编辑时间、内容、末尾。</p>
 <p>知乎定位：「有问题就有答案」，知乎是知识问答社区，主打高质量回答，面向的用户主要集中在一二线城市，受教育水平较高，因此对问题答案的要求较高。</p>
 <p>题目中的内容指的就是知乎中问题的答案。知乎将编辑时间放在了回答的末尾。末尾暗指的含义是「不重要」，那么对于知乎的回答而言时间为何不重要？什么更重要？什么样的内容需要把时间置于最前？如果把时间放在前边，对知乎来说会有什么影响？</p>
@@ -340,7 +360,7 @@ https://www.huxiu.com/article/345736.html</p>
         <id>https://Zoej-Zhang.github.io/post/202102-chan-pin-ti-xi-gou-jian/</id>
         <link href="https://Zoej-Zhang.github.io/post/202102-chan-pin-ti-xi-gou-jian/">
         </link>
-        <updated>2021-02-25T15:08:47.000Z</updated>
+        <updated>2021-01-14T15:08:47.000Z</updated>
         <content type="html"><![CDATA[<p>私以为产品经理应该有一套自己的产品理解和工作方法体系，在小红书的实习过程中逐渐搭建起了一个框架并逐渐修改、填充了部分，希望能在此基础上不断充实完善。</p>
 <p>此框架主要分为<strong>产品观</strong>和<strong>工作方法论</strong>两部分。产品观指观察、体验、思考一产品时常用的角度，包括产品概况、产品设计、运营推广方式和商业化模式；工作方法论主要是实际工作场景下使用的小技巧。</p>
 <figure data-type="image" tabindex="1"><img src="https://Zoej-Zhang.github.io/post-images/1614265762151.png" alt="" loading="lazy"></figure>
