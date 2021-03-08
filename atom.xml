@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Zoej-Zhang.github.io</id>
     <title>Zoej 的PM成长录</title>
-    <updated>2021-03-08T06:29:42.743Z</updated>
+    <updated>2021-03-08T13:38:45.973Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Zoej-Zhang.github.io"/>
     <link rel="self" href="https://Zoej-Zhang.github.io/atom.xml"/>
@@ -10,6 +10,183 @@
     <logo>https://Zoej-Zhang.github.io/images/avatar.png</logo>
     <icon>https://Zoej-Zhang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Zoej 的PM成长录</rights>
+    <entry>
+        <title type="html"><![CDATA[Sociopedia-原型与 PRD （待续]]></title>
+        <id>https://Zoej-Zhang.github.io/post/sociopedia-yuan-xing-yu-prd-dai-xu/</id>
+        <link href="https://Zoej-Zhang.github.io/post/sociopedia-yuan-xing-yu-prd-dai-xu/">
+        </link>
+        <updated>2021-03-08T12:47:06.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>背景</strong><br>
+Sociopedia 是一个社会事务信息聚合平台，为缺少社会经验的年轻人提供了解问题、解决问题的平台。搜索是其最主要的功能。<br>
+详细介绍见 brief。</p>
+<p><strong>主要流程</strong><br>
+<img src="https://Zoej-Zhang.github.io/post-images/1615207688799.png" alt="" loading="lazy"></p>
+<p><strong>页面展示交互逻辑</strong></p>
+<ol>
+<li>首页</li>
+</ol>
+<ul>
+<li>首页信息结构<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1615207743443.png" alt="" loading="lazy"></li>
+<li>首页原型图<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1615207749245.png" alt="" loading="lazy"></li>
+<li>展示元素
+<ul>
+<li>「我的」icon
+<ul>
+<li>点击进入个人设置页面</li>
+</ul>
+</li>
+<li>产品 logo</li>
+<li>当前城市
+<ul>
+<li>基于用户 GPS 位置显示，点击可更换城市</li>
+</ul>
+</li>
+<li>搜索框
+<ul>
+<li>默认显示「请输入」</li>
+<li>点击搜索按钮或键盘回车键进入搜索结果页</li>
+</ul>
+</li>
+<li>分类模块
+<ul>
+<li>点击任意分类弹出子类面板</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>1.1 个人设置页面<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1615207767660.png" alt="" loading="lazy"></p>
+<ul>
+<li>触发条件
+<ul>
+<li>点击首页「我的」icon</li>
+</ul>
+</li>
+<li>展示元素
+<ul>
+<li>用户头像及 ID</li>
+<li>消息中心
+<ul>
+<li>点击进入消息中心页面</li>
+</ul>
+</li>
+<li>我的收藏
+<ul>
+<li>点击进入我的收藏页面</li>
+</ul>
+</li>
+<li>设置
+<ul>
+<li>点击进入设置页面</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>1.2 内容分类面板<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1615207782194.png" alt="" loading="lazy"></p>
+<ul>
+<li>前置条件
+<ul>
+<li>点击首页内容分类模块</li>
+</ul>
+</li>
+<li>收起条件
+<ul>
+<li>点击面板外任意位置，收起面板回到首页</li>
+</ul>
+</li>
+<li>点击面板内子主题
+<ul>
+<li>点击进入该标题相应的搜索结果页面</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>搜索结果页<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1615207788113.png" alt="" loading="lazy"></li>
+</ol>
+<ul>
+<li>返回
+<ul>
+<li>点击返回首页</li>
+</ul>
+</li>
+<li>搜索框
+<ul>
+<li>点击可输入文字重新搜索</li>
+</ul>
+</li>
+<li>城市选择
+<ul>
+<li>点击切换城市，切换后根据所选目的地刷新搜索结果</li>
+</ul>
+</li>
+<li>结果分类
+<ul>
+<li>点击选择结果分类</li>
+</ul>
+</li>
+<li>排序
+<ul>
+<li>点击可按照相应规则对搜索结果进行排序</li>
+</ul>
+</li>
+<li>筛选
+<ul>
+<li>点击可按照相应规则对搜索结果筛选</li>
+</ul>
+</li>
+<li>结果列
+<ul>
+<li>显示内容标题和更新时间，点击进入详情页</li>
+</ul>
+</li>
+<li>反馈
+<ul>
+<li>位于所有搜索结果后，点击弹出反馈弹窗</li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li>内容详情页<br>
+<img src="https://Zoej-Zhang.github.io/post-images/1615208387315.png" alt="" loading="lazy"></li>
+</ol>
+<ul>
+<li>返回
+<ul>
+<li>点击返回上一页面</li>
+</ul>
+</li>
+<li>文章模块</li>
+<li>文章标题</li>
+<li>分享
+<ul>
+<li>点击弹出分享面板</li>
+</ul>
+</li>
+<li>收藏
+<ul>
+<li>点击将文章收藏至「我的收藏」</li>
+</ul>
+</li>
+<li>文章更新日期</li>
+<li>文章内容
+<ul>
+<li>文章内容以小标题为界，标题位于该段内容前，显示编辑 icon，点击该 icon 可提交内容修改，审核通过后更新内容显示在该文章中</li>
+</ul>
+</li>
+<li>目录
+<ul>
+<li>目录为悬浮按钮，不跟随页面滑动。点击展示文章目录，即各级标题。点击目录内标题直接跳转至该部分</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[日常思考-某写字楼的星巴克一天可以卖多少咖啡？]]></title>
         <id>https://Zoej-Zhang.github.io/post/ri-chang-si-kao-mou-xie-zi-lou-de-xing-ba-ke-yi-tian-ke-yi-mai-duo-shao-ka-pei/</id>
