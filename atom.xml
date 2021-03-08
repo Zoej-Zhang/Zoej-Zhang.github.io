@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Zoej-Zhang.github.io</id>
     <title>Zoej 的PM成长录</title>
-    <updated>2021-03-04T07:55:47.228Z</updated>
+    <updated>2021-03-08T06:04:00.208Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Zoej-Zhang.github.io"/>
     <link rel="self" href="https://Zoej-Zhang.github.io/atom.xml"/>
@@ -10,6 +10,45 @@
     <logo>https://Zoej-Zhang.github.io/images/avatar.png</logo>
     <icon>https://Zoej-Zhang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Zoej 的PM成长录</rights>
+    <entry>
+        <title type="html"><![CDATA[日常思考-某写字楼的星巴克一天可以卖多少咖啡？]]></title>
+        <id>https://Zoej-Zhang.github.io/post/ri-chang-si-kao-mou-xie-zi-lou-de-xing-ba-ke-yi-tian-ke-yi-mai-duo-shao-ka-pei/</id>
+        <link href="https://Zoej-Zhang.github.io/post/ri-chang-si-kao-mou-xie-zi-lou-de-xing-ba-ke-yi-tian-ke-yi-mai-duo-shao-ka-pei/">
+        </link>
+        <updated>2021-03-06T06:46:15.000Z</updated>
+        <content type="html"><![CDATA[<p>题目拆解：估算，费米问题</p>
+<p>费米问题一般没有固定答案，主要考察答题思路。费米问题解法有以下几个步骤：<br>
+定义边界、构建公式、拆解问题、复查。（此思路来源于公众号「不二 PM」）</p>
+<ol>
+<li>
+<p>定义边界<br>
+某写字楼的星巴克服务的顾客，可能是写字楼内的职员，也可能是路过来买咖啡或来休息学习的。为了简化问题，本题中定义该星巴克仅服务于该写字楼职员。</p>
+</li>
+<li>
+<p>构建公式<br>
+构建公式可以从需求端或供给端入手。<br>
+本题可以考虑从需求端出发，即一天内写字楼里有多少人买咖啡。则：<br>
+咖啡售出数=大楼总人数<em>喝咖啡的人所占比例</em>一天几杯咖啡</p>
+</li>
+<li>
+<p>拆解问题<br>
+将上述公式的元素分开解，</p>
+</li>
+</ol>
+<ul>
+<li>大楼总人数=每个办公室职员数<em>每层办公室数量</em>办公楼层数<br>
+假设该写字楼有16层，每层10个办公室，每个办公室可容纳30名员工<br>
+则该写字楼总人数=30<em>10</em>16=4800人</li>
+<li>喝咖啡的人比例可以通过抽样调查得到，在此情景中假设该写字楼白领喝咖啡的比例为80%，即有3840人喝咖啡；</li>
+<li>一天几杯咖啡同样需要调查，假设喝咖啡的80%人中有60%一天喝2杯咖啡，剩下的40%一天喝1杯咖啡</li>
+</ul>
+<p>通过计算可以得出该写字楼白领每天需要的咖啡数量为3840*60%<em>2+3840</em>40%=4608+1536=6144杯。</p>
+<ol start="4">
+<li>复查<br>
+上述解法为粗略的公式拆解计算，在复查时可以通过转换思路（公式）或查漏补缺核验结果。在上述场景中最后得出的6144杯咖啡是该星巴克所在写字楼内员工的一天所需咖啡量，其实并不代表所有的咖啡需求都会在星巴克中得到满足。如果要更精确的解题还要考虑该写字楼竞品的情况，如其他咖啡店、自动咖啡机或公司提供的免费咖啡，最后得到在星巴克购买的咖啡数量。</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[产品思考-如何提高一个短视频app的日活？]]></title>
         <id>https://Zoej-Zhang.github.io/post/chan-pin-si-kao-ru-he-ti-gao-yi-ge-duan-shi-pin-app-de-ri-huo/</id>
@@ -356,7 +395,7 @@ https://www.huxiu.com/article/345736.html</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2021.02 产品体系构建]]></title>
+        <title type="html"><![CDATA[2021 产品体系构建]]></title>
         <id>https://Zoej-Zhang.github.io/post/202102-chan-pin-ti-xi-gou-jian/</id>
         <link href="https://Zoej-Zhang.github.io/post/202102-chan-pin-ti-xi-gou-jian/">
         </link>

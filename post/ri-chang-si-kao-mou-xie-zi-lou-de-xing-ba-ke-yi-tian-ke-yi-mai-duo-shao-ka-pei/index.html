@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>日常思考-某写字楼的星巴克一天可以卖多少咖啡？ | Zoej 的PM成长录</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Zoej-Zhang.github.io/favicon.ico?v=1615183435924">
+<link rel="stylesheet" href="https://Zoej-Zhang.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="题目拆解：估算，费米问题
+费米问题一般没有固定答案，主要考察答题思路。费米问题解法有以下几个步骤：
+定义边界、构建公式、拆解问题、复查。（此思路来源于公众号「不二 PM」）
+
+
+定义边界
+某写字楼的星巴克服务的顾客，可能是写字楼内的职员，也..." />
+    <meta name="keywords" content="日常思考" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://Zoej-Zhang.github.io">
+        <img src="https://Zoej-Zhang.github.io/images/avatar.png?v=1615183435924" class="site-logo">
+        <h1 class="site-title">Zoej 的PM成长录</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故知新，三思后行
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Zoej-Zhang.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">日常思考-某写字楼的星巴克一天可以卖多少咖啡？</h2>
+            <div class="post-date">2021-03-06</div>
+            
+              <div class="feature-container" style="background-image: url('https://Zoej-Zhang.github.io/post-images/ri-chang-si-kao-mou-xie-zi-lou-de-xing-ba-ke-yi-tian-ke-yi-mai-duo-shao-ka-pei.jpg')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>题目拆解：估算，费米问题</p>
+<p>费米问题一般没有固定答案，主要考察答题思路。费米问题解法有以下几个步骤：<br>
+定义边界、构建公式、拆解问题、复查。（此思路来源于公众号「不二 PM」）</p>
+<ol>
+<li>
+<p>定义边界<br>
+某写字楼的星巴克服务的顾客，可能是写字楼内的职员，也可能是路过来买咖啡或来休息学习的。为了简化问题，本题中定义该星巴克仅服务于该写字楼职员。</p>
+</li>
+<li>
+<p>构建公式<br>
+构建公式可以从需求端或供给端入手。<br>
+本题可以考虑从需求端出发，即一天内写字楼里有多少人买咖啡。则：<br>
+咖啡售出数=大楼总人数<em>喝咖啡的人所占比例</em>一天几杯咖啡</p>
+</li>
+<li>
+<p>拆解问题<br>
+将上述公式的元素分开解，</p>
+</li>
+</ol>
+<ul>
+<li>大楼总人数=每个办公室职员数<em>每层办公室数量</em>办公楼层数<br>
+假设该写字楼有16层，每层10个办公室，每个办公室可容纳30名员工<br>
+则该写字楼总人数=30<em>10</em>16=4800人</li>
+<li>喝咖啡的人比例可以通过抽样调查得到，在此情景中假设该写字楼白领喝咖啡的比例为80%，即有3840人喝咖啡；</li>
+<li>一天几杯咖啡同样需要调查，假设喝咖啡的80%人中有60%一天喝2杯咖啡，剩下的40%一天喝1杯咖啡</li>
+</ul>
+<p>通过计算可以得出该写字楼白领每天需要的咖啡数量为3840*60%<em>2+3840</em>40%=4608+1536=6144杯。</p>
+<ol start="4">
+<li>复查<br>
+上述解法为粗略的公式拆解计算，在复查时可以通过转换思路（公式）或查漏补缺核验结果。在上述场景中最后得出的6144杯咖啡是该星巴克所在写字楼内员工的一天所需咖啡量，其实并不代表所有的咖啡需求都会在星巴克中得到满足。如果要更精确的解题还要考虑该写字楼竞品的情况，如其他咖啡店、自动咖啡机或公司提供的免费咖啡，最后得到在星巴克购买的咖啡数量。</li>
+</ol>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://Zoej-Zhang.github.io/tag/zPiA-YsaO/" class="tag">
+                    日常思考
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://Zoej-Zhang.github.io/post/chan-pin-si-kao-ru-he-ti-gao-yi-ge-duan-shi-pin-app-de-ri-huo/">
+                  <h3 class="post-title">
+                    产品思考-如何提高一个短视频app的日活？
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
