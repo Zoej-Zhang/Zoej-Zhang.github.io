@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Zoej-Zhang.github.io</id>
-    <title>Zoej 的PM成长录</title>
-    <updated>2021-03-08T14:09:37.739Z</updated>
+    <title>Zoej的PM成长录</title>
+    <updated>2021-03-09T14:53:34.228Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Zoej-Zhang.github.io"/>
     <link rel="self" href="https://Zoej-Zhang.github.io/atom.xml"/>
     <subtitle>温故知新，三思后行</subtitle>
     <logo>https://Zoej-Zhang.github.io/images/avatar.png</logo>
     <icon>https://Zoej-Zhang.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Zoej 的PM成长录</rights>
+    <rights>All rights reserved 2021, Zoej的PM成长录</rights>
     <entry>
         <title type="html"><![CDATA[Sociopedia-原型与 PRD （待续]]></title>
         <id>https://Zoej-Zhang.github.io/post/sociopedia-yuan-xing-yu-prd-dai-xu/</id>
@@ -346,6 +346,23 @@ UGC 是用户生产的内容，与 PGC 相比内容更具多样性，让用户�
 <li>广告投放，如各媒体平台、视频平台中投放活动广告</li>
 <li>新媒体运营，如官方双微账号活动推广</li>
 </ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A quick acquaintance-即刻]]></title>
+        <id>https://Zoej-Zhang.github.io/post/a-quick-acquaintance-ji-ke/</id>
+        <link href="https://Zoej-Zhang.github.io/post/a-quick-acquaintance-ji-ke/">
+        </link>
+        <updated>2021-02-17T15:14:14.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>产品定位</strong>：兴趣同好社区，基于兴趣爱好的圈子社区<br>
+<strong>核心功能</strong>：加入不同类型的圈子、关注感兴趣的即友</p>
+<p><strong>特色</strong>：<br>
+· 功能：直播，在社区中支持更多形式的内容；日记，类似 instagram 的内容发布形式，比常规内容更随意，随心分享。<br>
+· 交互：交互细节讨喜，比如发在不同圈子里的内容互动的形式不同，有的是点赞有的是比心，给自己点赞会出现俏皮的表情。<br>
+· 商业化：电商即士多，探索盈利模式。<br>
+· 社区氛围：即刻用户质量较高，平台忠诚度高，社区气氛浓厚。</p>
+<p><strong>优化点</strong>：<br>
+找不到自己关注的所有圈子的内容广场。发现页中的动态广场是系统推荐的圈子内容，较为繁杂。</p>
 ]]></content>
     </entry>
     <entry>
