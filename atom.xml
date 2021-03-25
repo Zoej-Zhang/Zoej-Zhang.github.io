@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Zoej-Zhang.github.io</id>
     <title>Zoej的PM成长录</title>
-    <updated>2021-03-13T15:22:40.281Z</updated>
+    <updated>2021-03-25T09:11:36.541Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Zoej-Zhang.github.io"/>
     <link rel="self" href="https://Zoej-Zhang.github.io/atom.xml"/>
@@ -10,6 +10,56 @@
     <logo>https://Zoej-Zhang.github.io/images/avatar.png</logo>
     <icon>https://Zoej-Zhang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Zoej的PM成长录</rights>
+    <entry>
+        <title type="html"><![CDATA[产品思考-我能不能把区块链学明白？]]></title>
+        <id>https://Zoej-Zhang.github.io/post/chan-pin-si-kao-wo-neng-bu-neng-ba-qu-kuai-lian-xue-ming-bai/</id>
+        <link href="https://Zoej-Zhang.github.io/post/chan-pin-si-kao-wo-neng-bu-neng-ba-qu-kuai-lian-xue-ming-bai/">
+        </link>
+        <updated>2021-03-25T08:59:49.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>一、区块链是什么?</strong></p>
+<ul>
+<li>本质是电子账本系统</li>
+<li>特点：去中心化、不可篡改。</li>
+</ul>
+<p>区块就是账本，是一段特定时间内（目前为10分钟）的交易信息。一个块内包含区块头和该时间段内的交易数量、交易详情等信息。</p>
+<p>要想讲明白区块链，要从两个方面入手：<strong>比特币的交易</strong>和<strong>区块</strong></p>
+<p><strong>二、比特币/其他数字货币交易</strong></p>
+<ol>
+<li>
+<p>交易信息是什么？<br>
+在P2P网络中，任意节点进行的交易（如比特币买卖，“A买了B多少比特币”）都会对其他节点广播，由多数人认可后记录在每个节点的账本上。这就是去中心化的网络结构。</p>
+</li>
+<li>
+<p>怎么进行交易防伪？（给每次交易设置唯一标识）<br>
+比特币交易的认证方式——电子签名。比特币用户注册时生成<strong>随机数</strong>，由其产生<strong>私钥-公钥-地址</strong>。私钥是私有、私密的，可对信息加密；公钥是公开的，可对信息解密。</p>
+</li>
+</ol>
+<p>进行交易时，A将交易内容进行<strong>哈希运算</strong>得到<strong>摘要</strong>，将<strong>摘要</strong>通过<strong>私钥</strong>加密得到<strong>密码</strong></p>
+<p>广播时，将<strong>交易内容+公钥+密码</strong>进行<strong>广播</strong>，其余节点通过<strong>对交易内容的哈希运算</strong>和<strong>公钥+密码</strong>进行解码得到的两个摘要进行对比，一致则该广播被认可。</p>
+<ol start="3">
+<li>
+<p>如何保证交易有效性（即卖方的资产确认）<br>
+通过<strong>追溯</strong>计算卖方账户余额。</p>
+</li>
+<li>
+<p>如何防止双重支付？<br>
+在卖方余额只够一次交易却<strong>同时发出两条不同交易信息</strong>时，接收到其中一条广播的人会<strong>拒绝另一条</strong>，产生两条有不同人认可的链。该情况在矿工成功挖矿后以<strong>打包新块的人</strong>所认可的信息为准。</p>
+</li>
+<li>
+<p>如何防止篡改？<br>
+<strong>最长链原则</strong>：在同时有两个人打包出新块后，对块地址进行广播。哪个链后接的块最多，大家就公认哪条。</p>
+</li>
+</ol>
+<p><strong>51%</strong>：想篡改某个块上的信息，需要假造一个不含该交易的块接在该块的前一个块上，并依据最长链原则，不断计算打包新的块接在该链后，<strong>超过世界上50%的算力</strong>并成为最长链。</p>
+<p><strong>三、块是怎么打包的？由谁打包的？</strong></p>
+<p>由于<strong>每个节点都有账本</strong>，要以某个节点手上的账本为主，把他记下的信息打包成新块。系统需要选出<strong>有能力打包</strong>块的节点，并给予一定<strong>奖励</strong>，奖励包括每笔交易中的手续费和系统的打包奖励。想要竞争成为打包者的节点称为矿工。<br>
+为了证明自己的能力，这场竞争中的矿工需要解一道复杂的题，<strong>最先算出来且算对</strong>的矿工成为下一个块的打包者，这场竞赛就是挖矿。</p>
+<p>为了证明算力而解这道复杂的题就是一种<strong>工作量证明PoW</strong>。这道题是对一串<strong>字符串做两次哈希函数运算</strong>，且为了难度要求答案前n位为0.</p>
+<p><strong>字符串</strong>=前块头+自己账本上收集的账单信息+随机数</p>
+<p>哈希值<strong>HASH</strong>=<strong>SHA 256</strong>（SHA 256（字符串）），且要求答案前<strong>n</strong>位为0。函数SHA 256是对任意形式的数据进行运算后，得出一个256位的二进制数字。</p>
+<p><strong>n怎么确定</strong>：10分钟内所有矿机能达到的运算次数与前n位为0需要的运算次数基本一致。每台矿机的平均算力<em>目前的矿机数量</em>10分钟=2的n次方</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sociopedia-原型与 PRD （待续]]></title>
         <id>https://Zoej-Zhang.github.io/post/sociopedia-yuan-xing-yu-prd-dai-xu/</id>
